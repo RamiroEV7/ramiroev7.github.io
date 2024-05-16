@@ -5,12 +5,45 @@
     font-family: "Poppins", sans-serif;
 }
 
+
+.resolucion {
+    width: 99%;
+    text-align: center;
+    color: #F5F5DC;
+}
+
+@media (max-width: 990px) {
+    .desktop {
+        display: none;
+    }
+}
+
+@media (min-width: 991px) {
+    .phone {
+        display: none;
+    }
+}
+
 .screenInitial {
     display: flex;
-    margin: 266px auto 266px auto;
+    width: 99%;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.screenInitialDevice {
+    display: flex;
+    width: 99%;
+    justify-content: center;
+    margin-top: 15%;
 }
 
 .titles {
+    color: #F5F5DC;
+    margin: auto;
+}
+
+.titlesDevice {
     color: #F5F5DC;
     margin: auto;
 }
@@ -28,6 +61,13 @@
 .image {
     width: 320px;
     height: 320px;
+    border-radius: 300px;
+    margin: auto;
+}
+
+.imageDevice {
+    width: 350px;
+    height: 350px;
     border-radius: 300px;
     margin: auto;
 }
