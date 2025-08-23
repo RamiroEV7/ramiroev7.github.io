@@ -9,5 +9,5 @@ export default defineConfig({
   },
   // Use relative paths for assets in the build output.
   // This is important for deploying to GitHub Pages.
-  base: './', 
+  base: '/unir-boletas-correo-argentino/', 
 });
